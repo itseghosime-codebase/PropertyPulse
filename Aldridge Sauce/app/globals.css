@@ -164,7 +164,7 @@ a {
 }
 
 .bg-hero {
-  background-image: url("@/assets/hero-img.webp");
+  background-image: url("../assets/hero-img.webp");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
