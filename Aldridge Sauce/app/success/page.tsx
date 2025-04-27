@@ -1,4 +1,5 @@
-"use client";
+"use client"
+
 import SuccessPage from "@/components/Success";
 import React from "react";
 import { Suspense } from "react";
