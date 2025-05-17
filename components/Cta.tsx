@@ -29,7 +29,7 @@ export default function Cta() {
             </p>
           </BlurFade>
           <BlurFade inView delay={0.75}>
-            <Link href={""}>
+            <Link href={"https://wa.me/447535039110"} target="_blank">
               <span className="inline-block bg-[#068EED] px-8 py-4 rounded text-white font-semibold text-sm uppercase">
                 Schedule a Free Call
               </span>

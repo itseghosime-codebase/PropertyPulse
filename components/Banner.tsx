@@ -29,7 +29,7 @@ export default function Banner() {
             </p>
           </BlurFade>
           <BlurFade delay={0.5} inView>
-            <Link href={""}>
+            <Link href={"https://wa.me/447535039110"} target="_blank">
               <span className="inline-block bg-[#068EED] px-8 py-4 rounded text-white font-semibold text-xs md:text-sm uppercase">
                 Get Your Free Website Audit
               </span>

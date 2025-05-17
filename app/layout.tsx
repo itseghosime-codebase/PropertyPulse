@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import FloatWhatsapp from "@/components/FloatWhatsapp";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
+        <FloatWhatsapp/>
       </body>
     </html>
   );

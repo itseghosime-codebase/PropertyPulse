@@ -39,61 +39,85 @@ export default function Navbar() {
           } top-0 left-0 -z-0 w-full max-w-sm lg:max-w-full uppercase items-start font-medium font-sans justify-start pt-20 md:pt-28 lg:pt-0 gap-3 px-6 lg:gap-10 h-screen bg-[#000E28] lg:relative lg:bg-transparent lg:w-auto lg:h-auto`}
         >
           <li>
-            <Link className="hover:text-[#007CD2]" href="/">
-              <span className="text-sm ">Home</span>
+            <Link
+              className="hover:text-[#007CD2]"
+              onClick={() => setClicked(true)}
+              href="/"
+            >
+              <span className="text-sm md:text-xs font-medium">Home</span>
             </Link>
           </li>
           <li>
-            <Link className="hover:text-[#007CD2]" href="/rent">
-              <span className="text-sm ">About US</span>
+            <Link
+              className="hover:text-[#007CD2]"
+              onClick={() => setClicked(true)}
+              href="#about"
+            >
+              <span className="text-sm md:text-xs font-medium">About US</span>
             </Link>
           </li>
           <li>
-            <Link className="hover:text-[#007CD2]" href="/contact">
-              <span className="text-sm ">WHY it works</span>
+            <Link
+              className="hover:text-[#007CD2]"
+              onClick={() => setClicked(true)}
+              href="#works"
+            >
+              <span className="text-sm md:text-xs font-medium">WHY it works</span>
             </Link>
           </li>
           <li>
-            <Link className="hover:text-[#007CD2]" href="/doordash">
-              <span className="text-sm ">Features</span>
+            <Link
+              className="hover:text-[#007CD2]"
+              onClick={() => setClicked(true)}
+              href="#features"
+            >
+              <span className="text-sm md:text-xs font-medium">Features</span>
             </Link>
           </li>
           <li>
-            <Link className="hover:text-[#007CD2]" href="/doordash">
-              <span className="text-sm ">Contact</span>
+            <Link
+              className="hover:text-[#007CD2]"
+              onClick={() => setClicked(true)}
+              href="#contact"
+            >
+              <span className="text-sm md:text-xs font-medium">Contact</span>
             </Link>
           </li>
 
           <div className="flex items-center gap-4 text-2xl mt-10 lg:hidden">
-          <Link
-            href={""}
-            className="text-white bg-[#007CD2] rounded-md inline-block"
-          >
-            <span className="h-10 w-10 flex items-center justify-center">
-              <FaLinkedinIn />
-            </span>
-          </Link>
-          <Link
-            href={""}
-            className="text-white bg-[#007CD2] rounded-md inline-block"
-          >
-            <span className="h-10 w-10 flex items-center justify-center">
-              <FaTwitter />
-            </span>
-          </Link>
-          <Link
-            href={""}
-            className="text-white bg-[#007CD2] rounded-md inline-block"
-          >
-            <span className="h-10 w-10 flex items-center justify-center">
-              <RiWhatsappFill />
-            </span>
-          </Link>
-        </div>
+            <Link
+              href={"www.LinkedIn.com/in/propertypulsepro"}
+              target="_blank"
+              className="text-white bg-[#007CD2] rounded-md inline-block"
+            >
+              <span className="h-10 w-10 flex items-center justify-center">
+                <FaLinkedinIn />
+              </span>
+            </Link>
+            <Link
+              href={"https://x.com/PropertyPulseP"}
+              target="_blank"
+              className="text-white bg-[#007CD2] rounded-md inline-block"
+            >
+              <span className="h-10 w-10 flex items-center justify-center">
+                <FaTwitter />
+              </span>
+            </Link>
+            <Link
+              href={"https://wa.me/447535039110"}
+              target="_blank"
+              className="text-white bg-[#007CD2] rounded-md inline-block"
+            >
+              <span className="h-10 w-10 flex items-center justify-center">
+                <RiWhatsappFill />
+              </span>
+            </Link>
+          </div>
         </ul>
         <div className="xl:flex items-center gap-4 text-2xl hidden">
           <Link
-            href={""}
+            href={"www.LinkedIn.com/in/propertypulsepro"}
+            target="_blank"
             className="text-white bg-[#007CD2] rounded-md inline-block"
           >
             <span className="h-10 w-10 flex items-center justify-center">
@@ -101,7 +125,8 @@ export default function Navbar() {
             </span>
           </Link>
           <Link
-            href={""}
+            href={"https://x.com/PropertyPulseP"}
+            target="_blank"
             className="text-white bg-[#007CD2] rounded-md inline-block"
           >
             <span className="h-10 w-10 flex items-center justify-center">
@@ -109,7 +134,8 @@ export default function Navbar() {
             </span>
           </Link>
           <Link
-            href={""}
+            href={"https://wa.me/447535039110"}
+            target="_blank"
             className="text-white bg-[#007CD2] rounded-md inline-block"
           >
             <span className="h-10 w-10 flex items-center justify-center">

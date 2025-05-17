@@ -9,7 +9,7 @@ import { BlurFade } from "./magicui/blur-fade";
 
 export default function Work() {
   return (
-    <div className="bg-[#000B24]">
+    <div id="about" className="bg-[#000B24]">
       <div className="container py-20 space-y-8 text-center">
         <section className="space-y-4 font-sans">
           <BlurFade inView>

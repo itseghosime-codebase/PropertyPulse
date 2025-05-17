@@ -6,7 +6,7 @@ import { BlurFade } from "./magicui/blur-fade";
 
 export default function Tailored() {
   return (
-    <div className="grid lg:grid-cols-5 items-center">
+    <div id="works" className="grid lg:grid-cols-5 items-center">
       <BlurFade inView direction="right" delay={0.7} className="lg:col-span-2">
         <Image
           src={Landscape}

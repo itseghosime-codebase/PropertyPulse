@@ -7,7 +7,7 @@ import { BlurFade } from "./magicui/blur-fade";
 
 export default function Steps() {
   return (
-    <div className="grid md:grid-cols-5 items-center bg-[#000B24]">
+    <div id="features" className="grid md:grid-cols-5 items-center bg-[#000B24]">
       <section className="md:col-span-3 py-16 px-5 md:p-16 space-y-6">
         <BlurFade inView delay={0.2}>
           <h2 className="text-2xl md:ext-3xl font-semibold uppercase text-white font-sans">

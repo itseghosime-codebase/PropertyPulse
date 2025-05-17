@@ -8,10 +8,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div>
+    <div id="contact">
       <section className="md:h-96 relative font-sans space-y-6">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.7886642059952!2d-73.95285692441419!3d40.70065183831096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bef81634bc9%3A0x87234d9ed1fc3d52!2s26%20Union%20Ave%2C%20Brooklyn%2C%20NY%2011206%2C%20USA!5e0!3m2!1sen!2sng!4v1747443436695!5m2!1sen!2sng"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.0687857642097!2d55.2762294!3d25.200902699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4283dcb05903%3A0xfdb34b3e83fc96cf!2sKempinski%20The%20Boulevard%20Dubai!5e0!3m2!1sen!2sng!4v1747500720030!5m2!1sen!2sng"
           width="100%"
           height="100%"
           className="h-full min-h-96"
@@ -23,18 +23,16 @@ export default function Footer() {
         <div className="md:absolute z-10 inset-x-0 w-full bottom-10 grid xl:grid-cols-3 items-center justify-center md:justify-between gap-4 lg:gap-10 container">
           <div className="flex items-center justify-center gap-4 px-6 bg-[#011031] py-4 rounded-sm">
             <IoLocationSharp color="#46B3FF" />
-            <p className="text-white text-sm">
-              26 SOUTH UNION AVENUE, New york
-            </p>
+            <p className="text-white text-sm">Kempinski The Boulevard Dubai</p>
           </div>
           <div className="flex items-center justify-center gap-4 px-6 bg-[#011031] py-4 rounded-sm">
             <FaPhone color="#46B3FF" />
-            <p className="text-white text-sm">1234567890</p>
+            <p className="text-white text-sm">+447535039110</p>
           </div>
 
           <div className="flex items-center justify-center gap-4 px-6 bg-[#011031] py-4 rounded-sm">
             <IoMdMail color="#46B3FF" />
-            <p className="text-white text-sm">ADMIN@PROPERTYPULSE.COM</p>
+            <p className="text-white text-sm">contact@propertypulsepro1.com</p>
           </div>
         </div>
       </section>
