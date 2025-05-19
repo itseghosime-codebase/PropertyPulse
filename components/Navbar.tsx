@@ -86,7 +86,7 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4 text-2xl mt-10 lg:hidden">
             <Link
-              href={"www.LinkedIn.com/in/propertypulsepro"}
+              href={"https://LinkedIn.com/in/propertypulsepro"}
               target="_blank"
               className="text-white bg-[#007CD2] rounded-md inline-block"
             >
@@ -116,7 +116,7 @@ export default function Navbar() {
         </ul>
         <div className="xl:flex items-center gap-4 text-2xl hidden">
           <Link
-            href={"www.LinkedIn.com/in/propertypulsepro"}
+            href={"https://LinkedIn.com/in/propertypulsepro"}
             target="_blank"
             className="text-white bg-[#007CD2] rounded-md inline-block"
           >
