@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
+import { AiFillInstagram } from "react-icons/ai";
 
 export default function Navbar() {
   const [clicked, setClicked] = React.useState(true);
@@ -103,6 +104,15 @@ export default function Navbar() {
                 <FaTwitter />
               </span>
             </Link>
+             <Link
+              href={""}
+              target="_blank"
+              className="text-white bg-[#007CD2] rounded-md inline-block"
+            >
+              <span className="h-10 w-10 flex items-center justify-center">
+                <AiFillInstagram />
+              </span>
+            </Link>
             <Link
               href={"https://wa.me/447535039110"}
               target="_blank"
@@ -133,6 +143,15 @@ export default function Navbar() {
               <FaTwitter />
             </span>
           </Link>
+          <Link
+              href={""}
+              target="_blank"
+              className="text-white bg-[#007CD2] rounded-md inline-block"
+            >
+              <span className="h-10 w-10 flex items-center justify-center">
+                <AiFillInstagram />
+              </span>
+            </Link>
           <Link
             href={"https://wa.me/447535039110"}
             target="_blank"
