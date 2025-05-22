@@ -105,7 +105,7 @@ export default function Navbar() {
               </span>
             </Link>
              <Link
-              href={""}
+              href={"https://www.instagram.com/propertypulsepro1?igsh=MzBnc2ZmaW5mdnE3&utm_source=qr"}
               target="_blank"
               className="text-white bg-[#007CD2] rounded-md inline-block"
             >
@@ -144,7 +144,7 @@ export default function Navbar() {
             </span>
           </Link>
           <Link
-              href={""}
+              href={"https://www.instagram.com/propertypulsepro1?igsh=MzBnc2ZmaW5mdnE3&utm_source=qr"}
               target="_blank"
               className="text-white bg-[#007CD2] rounded-md inline-block"
             >
