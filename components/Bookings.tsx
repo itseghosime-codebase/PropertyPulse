@@ -36,6 +36,7 @@ export default function Bookings() {
               backgroundColor: "#000B24",
               textColor: "#ffffff",
               primaryColor: "#46B3FF",
+              hideEventTypeDetails: true,
             }}
           />
         </div>
